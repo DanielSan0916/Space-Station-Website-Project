@@ -62,33 +62,34 @@ header h1 {
     margin-bottom: 20px;
 }
 
-#gallery div {
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-article {
+.photo-container {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
     width: 200px;
+    text-align: center;
 }
 
-article img {
-    max-width: 100%;
+.photo-container img {
+    width: 1in; /* Set image width to 1 inch */
     border-radius: 5px;
 }
 
-article h3 {
+.photo-container h3 {
     margin: 10px 0 5px;
     font-size: 1.2em;
 }
 
-article p {
+.photo-container p {
     font-size: 0.9em;
     color: #666;
 }
